@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pentagon Tech</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#0b0f19;
+color:white;
+text-align:center;
+}
+
+header{
+background:#111827;
+padding:30px;
+}
+
+h1{
+color:#00ffd5;
+}
+
+.container{
+padding:40px;
+}
+
+.apps{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:#1f2937;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+background:#111827;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+background:#111827;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Pentagon Tech</h1>
+<p>Digital Nation Infrastructure powered by AI, Web3 and Autonomous AGI</p>
+</header>
+
+<div class="container">
+
+<h2>Imperial Districts</h2>
+
+<div class="apps">
+
+<div class="card">
+<h3>Vibesso</h3>
+<p>Social Media Platform</p>
+</div>
+
+<div class="card">
+<h3>Crystal</h3>
+<p>Digital Wallet</p>
+</div>
+
+<div class="card">
+<h3>Nitro-Bet</h3>
+<p>Motorsports Betting Platform</p>
+</div>
+
+<div class="card">
+<h3>Peace</h3>
+<p>Smart Calendar</p>
+</div>
+
+<div class="card">
+<h3>MusicX</h3>
+<p>Music Streaming</p>
+</div>
+
+<div class="card">
+<h3>The Claws</h3>
+<p>Browser & Mining Engine</p>
+</div>
+
+<div class="card">
+<h3>OpenSpace</h3>
+<p>NFT Marketplace</p>
+</div>
+
+<div class="card">
+<h3>Shadow Circuit</h3>
+<p>Game-Fi Ecosystem</p>
+</div>
+
+<div class="card">
+<h3>The Dragon Store</h3>
+<p>Decentralized App Store</p>
+</div>
+
+<div class="card">
+<h3>IPFS Cloud</h3>
+<p>Decentralized Storage</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>Founder: Muhammad Mustapha</p>
+<p>Pentagon Tech Digital Nation Project</p>
+
+</footer>
+
+</body>
+</html>
