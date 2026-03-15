@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentagon Tech | Imperial Districts</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            background: #0b0f19;
+            color: #e5e7eb;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(180deg, #111827 0%, #0b0f19 100%);
+            padding: 60px 20px;
+            border-bottom: 1px solid #1f2937;
+        }
+
+        h1 {
+            color: #00ffd5;
+            font-size: 2.5rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 15px rgba(0, 255, 213, 0.4);
+        }
+
+        header p {
+            color: #9ca3af;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 10px auto 0;
+        }
+
+        .container {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: #f3f4f6;
+        }
+
+        .apps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #1f2937;
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #374151;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background: #111827;
+            border-color: #00ffd5;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .card h3 {
+            color: #00ffd5;
+            margin-top: 0;
+        }
+
+        .card p {
+            color: #9ca3af;
+            font-size: 0.95rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: transparent;
+            color: #00ffd5;
+            border: 1px solid #00ffd5;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #00ffd5;
+            color: #0b0f19;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 40px 20px;
+            background: #111827;
+            color: #6b7280;
+            font-size: 0.9rem;
+            border-top: 1px solid #1f2937;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pentagon Tech</h1>
+    <p>Digital Nation Infrastructure powered by AI, Web3, and Autonomous AGI</p>
+</header>
+
+<div class="container">
+    <h2>Imperial Districts</h2>
+    <div class="apps">
+        <!-- Vibesso -->
+        <div class="card">
+            <h3>Vibesso</h3>
+            <p>The next-generation Social Media platform built for high-frequency interaction and creator autonomy.</p>
+            <a href="#" class="btn">Launch App</a>
+        </div>
+
+        <!-- AGI Control -->
+        <div class="card">
+            <h3>Nexus AGI</h3>
+            <p>Autonomous intelligence governing district resources and automated infrastructure workflows.</p>
+            <a href="#" class="btn">Initialize</a>
+        </div>
+
+        <!-- Web3 Wallet -->
+        <div class="card">
+            <h3>Imperial Vault</h3>
+            <p>Secure Web3 gateway for managing digital assets, ID protocols, and cross-chain transactions.</p>
+            <a href="#" class="btn">Open Vault</a>
+        </div>
+
+        <!-- Analytics -->
+        <div class="card">
+            <h3>Aether Net</h3>
+            <p>Real-time data visualization of the Digital Nation's growth and infrastructure health.</p>
+            <a href="#" class="btn">View Stats</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Pentagon Tech. All systems operational.</p>
+</footer>
+
+</body>
+</html>
